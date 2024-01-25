@@ -1,1 +1,1 @@
-console.log("Eklavya")
+document.getElementById(id="demo").innerHTML = "Hello JavaScript";
