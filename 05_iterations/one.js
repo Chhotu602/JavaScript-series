@@ -5,20 +5,20 @@
 // }
 
 
-// for(let i=1; i<=5;i++){
-//     console.log(`Outer loop value: ${i}`);
-//     for(let j=1;j<=10;j++){
-//         console.log(`${i} * ${j} = ${i*j}`);
-//     }
-// }
+for(let i=1; i<=5;i++){
+    console.log(`Outer loop value: ${i}`);
+    for(let j=1;j<=10;j++){
+        console.log(`${i} * ${j} = ${i*j}`);
+    }
+}
 
-// let myArray = ["flash","batman","superman"]
-// console.log(myArray.length);
-// for (let index = 0; index < myArray.length; index++) {
-//     const element = myArray[index];
-//     console.log(element);
+let myArray = ["flash","batman","superman"]
+console.log(myArray.length);
+for (let index = 0; index < myArray.length; index++) {
+    const element = myArray[index];
+    console.log(element);
     
-// }
+}
 
 
 // break and continue
