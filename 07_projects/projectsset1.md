@@ -11,7 +11,7 @@
 ## Project 1
 
 ```javascript
-console.log('Eklavya')
+console.log('Eklavya');
 
 ```
 
