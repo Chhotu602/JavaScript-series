@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Events</title>
+</head>
+<body style="background-color:  #414141; color: aliceblue;">
+    <h2>Amazing Images</h2>
+    <div>
+        <ul id="images">
+
+            <!-- This is the first method to set events -->
+
+            <li><img width="200px" id="github" src="./github.jpeg"></li>    
+            <!-- onclick="alert('Gihub Image')" -->
+            <li><img width="200px" id="ps_image" src="./ps_image.png"></li> 
+            <!-- onclick="alert('Personal Image')" -->
+        </ul>
+    </div>
+</body>
+<script>
+
+// This is the second method to set events
+
+    // document.getElementById('github').onclick = function(){
+    //     // alert("Github  Image")
+    // }
+    // document.getElementById('ps_image').onclick = function(){
+    //     // alert("Personal  Image")
+    // }
+
+    // This is third method to set events in current market
+    // document.getElementById('github').addEventListener('click',function(e){
+    //     // console.log(e)
+    //     // alert('Github Image clicked again')
+    // })
+
+      //attachEvent()
+    //attachEvent method is used in early time run the application on internet explrer.
+  
+
+    //jQuery - onEventListener
+    //jQuery in popular method to set event in past time.
+
+
+    //type , timestamp, defaultPrevented
+    //target, toElement, srcElement, currentTarget
+    //clientX, clientY, screenX, screenY
+    //altkey, ctrlkey, shiftkey, keycode
+
+
+    document.getElementById('github').addEventListener('click',function(e){
+        console.log('github clicked')
+       
+    },false)
+
+    
+    document.getElementById('ps_image').addEventListener('click',function(e){
+        console.log('Pesonal Image')
+       
+    },false)
+
+</script>
+</html>
